@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+
+.Navbar{
+  display: flex;
+  justify-content: space-around;
+  background: #D4B499;
+  padding: 10px 20px;
+  font-family: 'Caveat', cursive;
+  margin: 0;
+  
+}
+.start{
+  display: block;
+}
+.title{
+  font-size: 4em;
+}
+.UserBtn{
+  display: inline-block;
+  background: black;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius:20px ;
+  margin: 24px 11px;
+}
+.UserBtn:hover{
+  background: rgb(194, 194, 196);
+  transition: 0.4s ease;
+  color: #000;
+  border: 1px solid black;
+  font-weight: bolder;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin: 10px;
+    padding: 50px 0;
+  }
+  
+  li{
+    position: relative;
+    top: 25px;
+  }
+  li:hover{
+    transform: scale(1.1);
+  }
+    img
+    {
+      height: 241px;
+      width: 250px;
+      margin-right: 100px;
+      border-radius: 50%;
+      position: relative;
+      left: 50px;
+      
+  }
+  .image{
+    position: relative;
+    bottom: -25px;
+    margin: 25px 30px;
+    filter:drop-shadow(8px 8px 10px gray);
+  }
+  .name,.emails{
+    text-align: center;
+    line-height: 24px;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 0 0 2px crimson;
+    filter:drop-shadow(8px 8px 10px gray);
+    line-height: 2;
+  }
+  
+  p{
+    position: relative;
+    top: 116px;
+    font-size: 33px;
+    text-transform: capitalize;
+    background: navajowhite;
+    padding: 0;
+  }
